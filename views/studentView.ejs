@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+    <%if(data){%>
+        <div>
+            <table class="table table-hover table-responsive justify-content-center" style="width: auto"> 
+                    <thead>
+                        <tr class="bg-primary">
+                            <th>StudentId</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-bordered">
+                        <tr class="text-center">
+                                      <td><%= data.StudentId%></td>
+                                      <td><%= data.Result%></td>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+        <%}%>
+        <%if(dataset){%>
+            <div>
+                <table class="table table-hover table-responsive justify-content-center" style="width: auto"> 
+                        <thead>
+                            <tr class="bg-primary">
+                                <th>StudentId</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-bordered">
+                            <%for(var i=0;i< dataset.length;i++){%>
+                            <tr class="text-center">
+                                <td><%= dataset[i].StudentId%></td>
+                                <td><%= dataset[i].Result%></td>
+                            </tr>
+                            <%}%>
+                        </tbody>
+                </table>
+            </div>
+            <%}%>
+    <br>
+</body>
+</html>

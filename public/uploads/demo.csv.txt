@@ -1,0 +1,8 @@
+"Name", "Age", "StudentId", "Marks1",  "Marks2",  "Marks3",  "Final",  "Result"  
+"student1", 18, 1, 40.5,     90.5,      90.5,     49.5,     "pass"
+"student2", 20, 2, 50.5,     90.5,      90.5,     59.5,     "fail"
+"student3", 20, 3, 50.5,     90.5,      90.5,     59.5,     "pass"
+"student4", 20, 4, 50.5,     90.5,      90.5,     59.5,     "pass"
+"student5", 20, 5, 50.5,     90.5,      90.5,     59.5,     "pass"
+"student6", 20, 6, 50.5,     90.5,      90.5,     59.5,     "fail"
+"student7", 20, 7, 50.5,     90.5,      90.5,     59.5,     "fail"  
