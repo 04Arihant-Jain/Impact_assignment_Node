@@ -1,6 +1,6 @@
 Steps:
 1. Clone your project
-> git clone <url>
+> git clone "https://github.com/04Arihant-Jain/Impact_assignment_Node.git"
 
 2. Go to the Directory
 > npm install
